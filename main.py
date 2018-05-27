@@ -1,9 +1,10 @@
 from CommunicationDiagram import CommunicationDiagram
+from CommunicationDiagramComparator import CommunicationDiagramComparator
 
-xmi = CommunicationDiagram('example.xml')
+left = CommunicationDiagram('example2.xml')
+right = CommunicationDiagram('example.xml')
 
-print(xmi.path)
-print(xmi.tree)
+comparator = CommunicationDiagramComparator(left, right)
 
+print(comparator.getMissingLifelines())
 
-print(xmi.getMessages())
