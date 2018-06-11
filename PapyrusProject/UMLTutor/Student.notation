@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_btXxQGznEeiF3OUoikrMXg" type="PapyrusUMLCommunicationDiagram" name="Communication Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_btXxQWznEeiF3OUoikrMXg" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_btXxQmznEeiF3OUoikrMXg" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_btXxQ2znEeiF3OUoikrMXg" type="Interaction_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_btXxRGznEeiF3OUoikrMXg" x="50"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_btXxRWznEeiF3OUoikrMXg" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_CRSGgGzpEeiF3OUoikrMXg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_CRStkGzpEeiF3OUoikrMXg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_CRStkWzpEeiF3OUoikrMXg" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_CRStkmzpEeiF3OUoikrMXg" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Student.uml#_CRJjoGzpEeiF3OUoikrMXg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CRSGgWzpEeiF3OUoikrMXg" x="313" y="171"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_tDADgGzrEeiF3OUoikrMXg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tDADgmzrEeiF3OUoikrMXg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_tDADg2zrEeiF3OUoikrMXg" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_tDADhGzrEeiF3OUoikrMXg" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Student.uml#_tC7LAGzrEeiF3OUoikrMXg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tDADgWzrEeiF3OUoikrMXg" x="467" y="327"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_btXxRmznEeiF3OUoikrMXg"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="Student.uml#_btXKMGznEeiF3OUoikrMXg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_btXxR2znEeiF3OUoikrMXg"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_btXxSGznEeiF3OUoikrMXg" name="diagram_compatibility_version" stringValue="1.3.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_btXxSWznEeiF3OUoikrMXg"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_btXxSmznEeiF3OUoikrMXg" diagramKindId="org.eclipse.papyrus.uml.diagram.communication">
+    <owner xmi:type="uml:Model" href="Student.uml#_btRqoGznEeiF3OUoikrMXg"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="Student.uml#_btXKMGznEeiF3OUoikrMXg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_xA74sGzrEeiF3OUoikrMXg" type="Path_Edge" source="_CRSGgGzpEeiF3OUoikrMXg" target="_tDADgGzrEeiF3OUoikrMXg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xA8fwGzrEeiF3OUoikrMXg" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xA8fwWzrEeiF3OUoikrMXg" x="1" y="-23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xA8fwmzrEeiF3OUoikrMXg" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xA8fw2zrEeiF3OUoikrMXg" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xA74sWzrEeiF3OUoikrMXg"/>
+    <element xmi:type="uml:Message" href="Student.uml#_xAqL4GzrEeiF3OUoikrMXg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xA74smzrEeiF3OUoikrMXg" points="[-1, 7, -177, -143]$[179, 138, 3, -12]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xBHe4GzrEeiF3OUoikrMXg" id="(0.22,0.72)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xBIF8GzrEeiF3OUoikrMXg" id="(0.44,0.48)"/>
+  </edges>
+</notation:Diagram>
