@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <lifeline_mappings>
+        <mapping>
+            <lifeline>Processo</lifeline>
+            <use_case>1</use_case>
+            <class>Processo</class>
+        </mapping>
+        <mapping>
+            <lifeline>Cliente</lifeline>
+            <use_case>3</use_case>
+            <class>Cliente</class>
+        </mapping>
+    </lifeline_mappings>
+    <message_mappings>
+        <mapping>
+            <message>1. abrirProcesso()</message>
+            <class>Processo</class>
+        </mapping>
+        <mapping>
+            <message>5. atribuirTribunal()</message>
+            <class>Tribunal</class>
+        </mapping>
+    </message_mappings>
+</root>
