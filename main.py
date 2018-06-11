@@ -6,23 +6,14 @@ left = CommunicationDiagram('PapyrusProject/UMLTutor/Student.uml')
 right = CommunicationDiagram('PapyrusProject/UMLTutor/Oracle.uml')
 comparator = CommunicationDiagramComparator(left, right)
 
-wrongFlows = comparator.getWrongMessageFlows()
-
-print(wrongFlows)
-
-#print(MessageFlow(1, 2, 3) == MessageFlow(1, 22, 3))
-
-#print(right.getMessageFlows())
-
-
-
-# print(left.getMessages(False))
-# print(comparator.validateLifelines())
-# print(comparator.validateMessages())
-
-
-#print(comparator.getMissingLifelines())
-#print(comparator.getMissingMessages())
-
-
-#print(left.getLifelines(False))
+print("=====")
+print("Wrong format for Lifeline name: {}".format(comparator.validateLifelines()))
+print("Correct Lifelines: {}".format(comparator.getCorrectLifelines()))
+print("Missing Lifelines: {}".format(comparator.getMissingLifelines()))
+print("Unnecessary Lifelines: {}".format(comparator.getUnnecessaryLifelines()))
+print("=====")
+print("Wrong format for Message name: {}".format(comparator.validateMessages()))
+print("Correct Messages: {}".format(comparator.getCorrectMessages()))
+print("Missing Messages: {}".format(comparator.getMissingMessages()))
+print("Unnecessary Messages: {}".format(comparator.getUnnecessaryMessages()))
+print("Correct Message flows: {}".format(comparator.getCorrectMessageFlows()))

@@ -3,11 +3,5 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_bw8psGznEeiF3OUoikrMXg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_btXKMGznEeiF3OUoikrMXg" name="Interaction1">
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_CRJjoGzpEeiF3OUoikrMXg" name="Main" coveredBy="_xAw5kGzrEeiF3OUoikrMXg"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_tC7LAGzrEeiF3OUoikrMXg" name="Processo" coveredBy="_xAxgoGzrEeiF3OUoikrMXg"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xAw5kGzrEeiF3OUoikrMXg" name="Message3SendEvent" covered="_CRJjoGzpEeiF3OUoikrMXg" message="_xAqL4GzrEeiF3OUoikrMXg"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xAxgoGzrEeiF3OUoikrMXg" name="Message3ReceiveEvent" covered="_tC7LAGzrEeiF3OUoikrMXg" message="_xAqL4GzrEeiF3OUoikrMXg"/>
-    <message xmi:type="uml:Message" xmi:id="_xAqL4GzrEeiF3OUoikrMXg" name="1. tramitarNovoProcesso()" messageSort="asynchCall" receiveEvent="_xAxgoGzrEeiF3OUoikrMXg" sendEvent="_xAw5kGzrEeiF3OUoikrMXg"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_btXKMGznEeiF3OUoikrMXg" name="Interaction1"/>
 </uml:Model>
