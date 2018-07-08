@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <lifeline_mappings>
+        <mapping>
+            <lifeline>Processo</lifeline>
+            <use_case_step>1</use_case_step>
+            <class>Processo</class>
+        </mapping>
+        <mapping>
+            <lifeline>Cliente</lifeline>
+            <use_case_step>3</use_case_step>
+            <class>Cliente</class>
+        </mapping>
+        <mapping>
+            <lifeline>Advogado</lifeline>
+            <use_case_step>4</use_case_step>
+            <class>Advogado</class>
+        </mapping>
+        <mapping>
+            <lifeline>Tribunal</lifeline>
+            <use_case_step>5</use_case_step>
+            <class>Tribunal</class>
+        </mapping>
+        <mapping>
+            <lifeline>Audiencia</lifeline>
+            <use_case_step>6</use_case_step>
+            <class>Audiencia</class>
+        </mapping>
+        <mapping>
+            <lifeline>NotaFiscal</lifeline>
+            <use_case_step>8</use_case_step>
+            <class>NotaFiscal</class>
+        </mapping>
+        <mapping>
+            <lifeline>ItemCusto</lifeline>
+            <use_case_step>9</use_case_step>
+            <class>ItemCusto</class>
+        </mapping>
+    </lifeline_mappings>
+    <message_mappings>
+        <mapping>
+            <message>1. tramitarNovoProcess()</message>
+            <class>Processo</class>
+        </mapping>
+        <mapping>
+            <message>2. abrirProcesso()</message>
+            <class>Processo</class>
+        </mapping>
+        <mapping>
+            <message>3. cadastrarCliente()</message>
+            <class>Cliente</class>
+        </mapping>
+        <mapping>
+            <message>4. cadastrarAdvogado()</message>
+            <class>Advogado</class>
+        </mapping>
+        <mapping>
+            <message>5. atribuirTribunal()</message>
+            <class>Tribunal</class>
+        </mapping>
+        <mapping>
+            <message>6. gerarAudiencia()</message>
+            <class>Audiencia</class>
+        </mapping>
+        <mapping>
+            <message>7. registrarParecer()</message>
+            <class>Audiencia</class>
+        </mapping>
+        <mapping>
+            <message>8. solicitarNovaNotaFiscal()</message>
+            <class>NotaFiscal</class>
+        </mapping>
+        <mapping>
+            <message>9. gerarItemCusto()</message>
+            <class>ItemCusto</class>
+        </mapping>
+        <mapping>
+            <message>10. transmitirNFEletronica()</message>
+            <class>NotaFiscal</class>
+        </mapping>
+        <mapping>
+            <message>11. fecharProcesso()</message>
+            <class>Processo</class>
+        </mapping>
+    </message_mappings>
+</root>
